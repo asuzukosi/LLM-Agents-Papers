@@ -429,5 +429,98 @@
         "date": "2023/12/06",
         "pdf": "http://arxiv.org/pdf/2312.03815.pdf",
         "abstract": "This paper envisions a revolutionary AIOS-Agent ecosystem, where Large Language Model (LLM) serves as the (Artificial) Intelligent Operating System (IOS, or AIOS)--an operating system &#34;with soul&#34;. Upon this foundation, a diverse range of LLM-based AI Agent Applications (Agents, or AAPs) are developed, enriching the AIOS-Agent ecosystem and signaling a paradigm shift from the traditional OS-APP ecosystem. We envision that LLM&#39;s impact will not be limited to the AI application level, instead, it will in turn revolutionize the design and implementation of computer system, architecture, software, and programming language, featured by several main concepts: LLM as OS (system-level), Agents as Applications (application-level), Natural Language as Programming Interface (user-level), and Tools as Devices/Libraries (hardware/middleware-level). We begin by introducing the architecture of traditional OS. Then we formalize a conceptual framework for AIOS through &#34;LLM as OS (LLMOS)&#34;, drawing analogies between AIOS and traditional OS: LLM is likened to OS kernel, context window to memory, external storage to file system, hardware tools to peripheral devices, software tools to programming libraries, and user prompts to user commands. Subsequently, we introduce the new AIOS-Agent Ecosystem, where users can easily program Agent Applications (AAPs) using natural language, democratizing the development of software, which is different from the traditional OS-APP ecosystem. Following this, we explore the diverse scope of Agent Applications. We delve into both single-agent and multi-agent systems, as well as human-agent interaction. Lastly, drawing on the insights from traditional OS-APP ecosystem, we propose a roadmap for the evolution of the AIOS-Agent ecosystem. This roadmap is designed to guide the future research and development, suggesting systematic progresses of AIOS and its Agent applications."
+    },
+    "527cb71d35909520605f0d39509bfac8": {
+        "title": "Automating Knowledge Acquisition for Content-Centric Cognitive Agents Using LLMs",
+        "authors": [
+            "Sanjay Oruganti",
+            "Sergei Nirenburg",
+            "Jesse English",
+            "Marjorie McShane"
+        ],
+        "date": "2023/12/27",
+        "pdf": "http://arxiv.org/pdf/2312.16378.pdf",
+        "abstract": "The paper describes a system that uses large language model (LLM) technology to support the automatic learning of new entries in an intelligent agent&#39;s semantic lexicon. The process is bootstrapped by an existing non-toy lexicon and a natural language generator that converts formal, ontologically-grounded representations of meaning into natural language sentences. The learning method involves a sequence of LLM requests and includes an automatic quality control step. To date, this learning method has been applied to learning multiword expressions whose meanings are equivalent to those of transitive verbs in the agent&#39;s lexicon. The experiment demonstrates the benefits of a hybrid learning architecture that integrates knowledge-based methods and resources with both traditional data analytics and LLMs."
+    },
+    "3c5cb3f3c825afd95557058b3c655d7e": {
+        "title": "Experiential Co-Learning of Software-Developing Agents",
+        "authors": [
+            "Chen Qian",
+            "Yufan Dang",
+            "Jiahao Li",
+            "Wei Liu",
+            "Weize Chen",
+            "Cheng Yang",
+            "Zhiyuan Liu",
+            "Maosong Sun"
+        ],
+        "date": "2023/12/28",
+        "pdf": "http://arxiv.org/pdf/2312.17025.pdf",
+        "abstract": "Recent advancements in large language models (LLMs) have brought significant changes to various domains, especially through LLM-driven autonomous agents. These agents are now capable of collaborating seamlessly, splitting tasks and enhancing accuracy, thus minimizing the need for human involvement. However, these agents often approach a diverse range of tasks in isolation, without benefiting from past experiences. This isolation can lead to repeated mistakes and inefficient trials in task solving. To this end, this paper introduces Experiential Co-Learning, a novel framework in which instructor and assistant agents gather shortcut-oriented experiences from their historical trajectories and use these past experiences for mutual reasoning. This paradigm, enriched with previous experiences, equips agents to more effectively address unseen tasks."
+    },
+    "4da8b341d1dc74b5c91c82a8b8332fe3": {
+        "title": "AUTOACT: Automatic Agent Learning from Scratch via Self-Planning",
+        "authors": [
+            "Shuofei Qiao",
+            "Ningyu Zhang",
+            "Runnan Fang",
+            "Yujie Luo",
+            "Wangchunshu Zhou",
+            "Yuchen Eleanor Jiang",
+            "Chengfei Lv",
+            "Huajun Chen"
+        ],
+        "date": "2024/01/10",
+        "pdf": "http://arxiv.org/pdf/2401.05268.pdf",
+        "abstract": "Language agents have achieved considerable performance on various complex tasks. Despite the incessant exploration in this field, existing language agent systems still struggle with costly, non-reproducible data reliance and face the challenge of compelling a single model for multiple functions. To this end, we introduce AutoAct, an automatic agent learning framework that does not rely on large-scale annotated data and synthetic trajectories from closed-source models (e.g., GPT-4). Given limited data with a tool library, AutoAct first automatically synthesizes planning trajectories without any assistance from humans or strong closed-source models. Then, AutoAct leverages a division-of-labor strategy to automatically differentiate based on the target task information and synthesized trajectories, producing a sub-agent group to complete the task. We conduct comprehensive experiments with different LLMs, which demonstrates that AutoAct yields better or parallel performance compared to various strong baselines. We even notice that AutoAct, when using the Llama-2-13b model, can achieve performance comparable to that of the GPT-3.5-Turbo agent. Code will be available at https://github.com/zjunlp/AutoAct."
+    },
+    "815211b5ab3616d6d3d1fba384bca69a": {
+        "title": "Agent Alignment in Evolving Social Norms",
+        "authors": [
+            "Shimin Li",
+            "Tianxiang Sun",
+            "Xipeng Qiu"
+        ],
+        "date": "2024/01/09",
+        "pdf": "http://arxiv.org/pdf/2401.04620.pdf",
+        "abstract": "Agents based on Large Language Models (LLMs) are increasingly permeating various domains of human production and life, highlighting the importance of aligning them with human values. The current alignment of AI systems primarily focuses on passively aligning LLMs through human intervention. However, agents possess characteristics like receiving environmental feedback and self-evolution, rendering the LLM alignment methods inadequate. In response, we propose an evolutionary framework for agent evolution and alignment, named EvolutionaryAgent, which transforms agent alignment into a process of evolution and selection under the principle of survival of the fittest. In an environment where social norms continuously evolve, agents better adapted to the current social norms will have a higher probability of survival and proliferation, while those inadequately aligned dwindle over time. Experimental results assessing the agents from multiple perspectives in aligning with social norms demonstrate that EvolutionaryAgent possesses the capability to align progressively better with the evolving social norms while maintaining its proficiency in general tasks. Effectiveness tests conducted on various open and closed-source LLMs as the foundation for agents also prove the applicability of our approach."
+    },
+    "1a7cb27152159d355d47bfa90274d0ab": {
+        "title": "Towards an On-device Agent for Text Rewriting",
+        "authors": [
+            "Yun Zhu",
+            "Yinxiao Liu",
+            "Felix Stahlberg",
+            "Shankar Kumar",
+            "Yu-hui Chen",
+            "Liangchen Luo",
+            "Lei Shu",
+            "Renjie Liu",
+            "Jindong Chen",
+            "Lei Meng"
+        ],
+        "date": "2023/08/22",
+        "pdf": "http://arxiv.org/pdf/2308.11807.pdf",
+        "abstract": "Large Language Models (LLMs) have demonstrated impressive capabilities for text rewriting. Nonetheless, the large sizes of these models make them impractical for on-device inference, which would otherwise allow for enhanced privacy and economical inference. Creating a smaller yet potent language model for text rewriting presents a formidable challenge because it requires balancing the need for a small size with the need to retain the emergent capabilities of the LLM, that requires costly data collection. To address the above challenge, we introduce a new instruction tuning approach for building a mobile-centric text rewriting model. Our strategies enable the generation of high quality training data without any human labeling. In addition, we propose a heuristic reinforcement learning framework which substantially enhances performance without requiring preference data. To further bridge the performance gap with the larger server-side model, we propose an effective approach that combines the mobile rewrite agent with the server model using a cascade. To tailor the text rewriting tasks to mobile scenarios, we introduce MessageRewriteEval, a benchmark that focuses on text rewriting for messages through natural language instructions. Through empirical experiments, we demonstrate that our on-device model surpasses the current state-of-the-art LLMs in text rewriting while maintaining a significantly reduced model size. Notably, we show that our proposed cascading approach improves model performance."
+    },
+    "2243b2331fd2574d72aca0cb65e10376": {
+        "title": "Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach",
+        "authors": [
+            "Bin Zhang",
+            "Hangyu Mao",
+            "Jingqing Ruan",
+            "Ying Wen",
+            "Yang Li",
+            "Shao Zhang",
+            "Zhiwei Xu",
+            "Dapeng Li",
+            "Ziyue Li",
+            "Rui Zhao",
+            "Lijuan Li",
+            "Guoliang Fan"
+        ],
+        "date": "2023/11/23",
+        "pdf": "http://arxiv.org/pdf/2311.13884.pdf",
+        "abstract": "The significant advancements in large language models (LLMs) have presented novel opportunities for tackling planning and decision-making within multi-agent systems. However, as the number of agents increases, the issues of hallucination in LLMs and coordination in multi-agent systems (MAS) have become increasingly pronounced. Additionally, the efficient utilization of tokens becomes a critical consideration when employing LLMs to facilitate the interactions of large numbers of agents. In this paper, we present a novel framework aimed at enhancing coordination and decision-making capabilities of LLMs within large-scale multi-agent environments. Our approach draws inspiration from the actor-critic framework employed in multi-agent reinforcement learning, and we develop a modular and token-efficient solution that effectively addresses challenges presented by LLMs and MAS. Through evaluations conducted in experiments involving system resource allocation and robot grid transportation, we demonstrate the considerable advantages afforded by our proposed approach."
     }
 }

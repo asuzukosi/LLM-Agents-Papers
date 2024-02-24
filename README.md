@@ -1,12 +1,12 @@
 # LLM-Agents-Papers
 ## :writing_hand: Description
-Last Updated Time: 2023/12/26
+Last Updated Time: 2024/1/19
 
 A repo lists papers related to LLM based agent. Includes
 * methods of role playing, memory mechanism and game playing
 * methods of feedback or reflection
-* methods of multi-agent collaboration
 * methods of tool usage or human-agent interaction
+* multi-agent system
 * benchmarks and surveys of the field
 * environments or platforms
 * agent fine-tuning
@@ -18,6 +18,10 @@ For more comprehensive reading, we also recommend other paper lists:
 * [woooodyy/llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list): Must-read papers for LLM-based agents.
 ## :newspaper: Papers
 - Survey
+	- [2024/01/01] **If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents** | [[paper]](https://arxiv.org/abs/2401.00812) | [code]
+
+	- [2023/12/31] **A Survey of Personality, Persona, and Profile in Conversational Agents and Chatbots** | [[paper]](https://arxiv.org/abs/2401.00609) | [code]
+
 	- [2023/12/19] **Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives** | [[paper]](https://arxiv.org/abs/2312.11970) | [code]
 
 	- [2023/09/14] **The Rise and Potential of Large Language Model Based Agents: A Survey** | [[paper]](https://arxiv.org/abs/2309.07864) | [[code]](https://github.com/woooodyy/llm-agent-paper-list)
@@ -30,6 +34,14 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Agent Fine-tuning
+	- [2024/01/10] **Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training** | [[paper]](https://arxiv.org/abs/2401.05566) | [code]
+
+	- [2024/01/10] **Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk** | [[paper]](https://arxiv.org/abs/2401.05033) | [code]
+
+	- [2024/01/10] **AUTOACT: Automatic Agent Learning from Scratch via Self-Planning** | [[paper]](https://arxiv.org/abs/2401.05268) | [[code]](https://github.com/zjunlp/AutoAct)
+
+	- [2024/01/05] **From LLM to Conversational Agent: A Memory Enhanced Architecture with Fine-Tuning of Large Language Models** | [[paper]](https://arxiv.org/abs/2401.02777) | [code]
+
 	- [2023/12/20] **Machine Mindset: An MBTI Exploration of Large Language Models** | [[paper]](https://arxiv.org/abs/2312.12999) | [[code]](https://github.com/PKU-YuanGroup/Machine-Mindset)
 
 	- [2023/10/19] **AgentTuning: Enabling Generalized Agent Abilities for LLMs** | [[paper]](https://arxiv.org/abs/2310.12823) | [[code]](https://github.com/THUDM/AgentTuning)
@@ -40,6 +52,12 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Role Playing
+	- [2024/01/09] **Agent Alignment in Evolving Social Norms** | [[paper]](https://arxiv.org/abs/2401.04620) | [code]
+
+	- [2023/12/28] **Experiential Co-Learning of Software-Developing Agents** | [[paper]](https://arxiv.org/abs/2312.17025) | [code]
+
+	- [2023/12/27] **Automating Knowledge Acquisition for Content-Centric Cognitive Agents Using LLMs** | [[paper]](https://arxiv.org/abs/2312.16378) | [code]
+
 	- [2023/12/21] **ChatGPT as a commenter to the news: can LLMs generate human-like opinions?** | [[paper]](https://arxiv.org/abs/2312.13961) | [code]
 
 	- [2023/12/19] **Can ChatGPT be Your Personal Medical Assistant?** | [[paper]](https://arxiv.org/abs/2312.12006) | [code]
@@ -48,6 +66,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 	- [2023/11/28] **War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars** | [[paper]](https://arxiv.org/abs/2311.17227) | [code]
 
+	- [2023/11/23] **Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach** | [[paper]](https://arxiv.org/abs/2311.13884) | [code]
+
 	- [2023/11/10] **Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations** | [[paper]](https://arxiv.org/abs/2311.06330) | [[code]](https://github.com/Roihn/SABM)
 
 	- [2023/10/01] **RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models** | [[paper]](https://arxiv.org/abs/2310.00746) | [[code]](https://github.com/InteractiveNLP-Team/RoleLLM-public)
@@ -55,6 +75,8 @@ For more comprehensive reading, we also recommend other paper lists:
 	- [2023/09/08] **Unleashing the Power of Graph Learning through LLM-based Autonomous Agents** | [[paper]](https://arxiv.org/abs/2309.04565) | [code]
 
 	- [2023/09/05] **Cognitive Architectures for Language Agents** | [[paper]](https://arxiv.org/abs/2309.02427) | [code]
+
+	- [2023/08/22] **Towards an On-device Agent for Text Rewriting** | [[paper]](https://arxiv.org/abs/2308.11807) | [code]
 
 	- [2023/08/14] **ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2308.07201) | [[code]](https://github.com/thunlp/ChatEval)
 
@@ -93,8 +115,22 @@ For more comprehensive reading, we also recommend other paper lists:
 	- [2022/12/08] **LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models** | [[paper]](https://arxiv.org/abs/2212.04088) | [[code]](https://dki-lab.github.io/LLM-Planner/)
 
 ---
-- Multi-Agent Collaboration
+- Multi-Agent System
+	- [2024/01/11] **Combating Adversarial Attacks with Multi-Agent Debate** | [[paper]](https://arxiv.org/abs/2401.05998) | [code]
+
+	- [2024/01/08] **MARG: Multi-Agent Review Generation for Scientific Papers** | [[paper]](https://arxiv.org/abs/2401.04259) | [code]
+
+	- [2024/01/08] **SpeechAgents: Human-Communication Simulation with Multi-Modal Multi-Agent Systems** | [[paper]](https://arxiv.org/abs/2401.03945) | [code]
+
+	- [2024/01/08] **Why Solving Multi-agent Path Finding with Large Language Model has not Succeeded Yet** | [[paper]](https://arxiv.org/abs/2401.03630) | [code]
+
 	- [2023/12/20] **AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation** | [[paper]](https://arxiv.org/abs/2312.13010) | [code]
+
+	- [2023/12/01] **Deciphering Digital Detectives: Understanding LLM Behaviors and Capabilities in Multi-Agent Mystery Games** | [[paper]](https://arxiv.org/abs/2312.00746) | [code]
+
+	- [2023/10/31] **Multi-Agent Consensus Seeking via Large Language Models** | [[paper]](https://arxiv.org/abs/2310.20151) | [code]
+
+	- [2023/10/25] **MultiPrompter: Cooperative Prompt Optimization with Multi-Agent Reinforcement Learning** | [[paper]](https://arxiv.org/abs/2310.16730) | [code]
 
 	- [2023/10/10] **MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-oriented Coordination via Collaborative Generative Agents** | [[paper]](https://arxiv.org/abs/2310.06500) | [code]
 
@@ -140,6 +176,10 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Memory Mechanism
+	- [2023/12/22] **Empowering Working Memory for Large Language Model Agents** | [[paper]](https://arxiv.org/abs/2312.17259) | [code]
+
+	- [2023/12/22] **Evolving Large Language Model Assistant with Long-Term Conditional Memory** | [[paper]](https://arxiv.org/abs/2312.17257) | [code]
+
 	- [2023/10/16] **CLIN: A Continually Learning Language Agent for Rapid Task Adaptation and Generalization** | [[paper]](https://arxiv.org/abs/2310.10134) | [[code]](https://github.com/allenai/clin)
 
 	- [2023/06/06] **ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory** | [[paper]](https://arxiv.org/abs/2306.03901) | [code]
@@ -178,6 +218,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Game Playing
+	- [2023/12/29] **Cooperation on the Fly: Exploring Language Agents for Ad Hoc Teamwork in the Avalon Game** | [[paper]](https://arxiv.org/abs/2312.17515) | [code]
+
 	- [2023/10/31] **Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models** | [[paper]](https://arxiv.org/abs/2310.20499) | [code]
 
 	- [2023/09/29] **Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4** | [[paper]](https://arxiv.org/abs/2309.17277) | [[code]](https://github.com/CR-Gjx/Suspicion-Agent)
@@ -208,6 +250,14 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Benchmark&Evaluation&Framework
+	- [2024/01/05] **AFSPP: Agent Framework for Shaping Preference and Personality with Large Language Models** | [[paper]](https://arxiv.org/abs/2401.02870) | [code]
+
+	- [2024/01/02] **CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation** | [[paper]](https://arxiv.org/abs/2401.01275) | [code]
+
+	- [2023/12/28] **How Far Are We from Believable AI Agents? A Framework for Evaluating the Believability of Human Behavior Simulation** | [[paper]](https://arxiv.org/abs/2312.17115) | [code]
+
+	- [2023/12/26] **RoleEval: A Bilingual Role Evaluation Benchmark for Large Language Models** | [[paper]](https://arxiv.org/abs/2312.16132) | [code]
+
 	- [2023/11/17] **Testing Language Model Agents Safely in the Wild** | [[paper]](https://arxiv.org/abs/2311.10538) | [code]
 
 	- [2023/11/16] **ML-Bench: Large Language Models Leverage Open-source Libraries for Machine Learning Tasks** | [[paper]](https://arxiv.org/abs/2311.09835) | [[code]](https://ml-bench.github.io/)
@@ -215,6 +265,8 @@ For more comprehensive reading, we also recommend other paper lists:
 	- [2023/11/15] **ToolTalk: Evaluating Tool-Usage in a Conversational Setting** | [[paper]](https://arxiv.org/abs/2311.10775) | [[code]](https://github.com/microsoft/ToolTalk)
 
 	- [2023/11/02] **ProAgent: From Robotic Process Automation to Agentic Process Automation** | [[paper]](https://arxiv.org/abs/2311.10751) | [[code]](https://github.com/OpenBMB/ProAgent)
+
+	- [2023/10/24] **FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions** | [[paper]](https://arxiv.org/abs/2310.15421) | [code]
 
 	- [2023/10/09] **Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena** | [[paper]](https://arxiv.org/abs/2310.05746) | [[code]](https://github.com/jiangjiechen/auction-arena)
 
@@ -236,6 +288,8 @@ For more comprehensive reading, we also recommend other paper lists:
 
 ---
 - Tool Usage&Human-Agent Interaction
+	- [2024/01/03] **GPT-4V(ision) is a Generalist Web Agent, if Grounded** | [[paper]](https://arxiv.org/abs/2401.01614) | [code]
+
 	- [2023/12/21] **Team Flow at DRC2023: Building Common Ground and Text-based Turn-taking in a Travel Agent Spoken Dialogue System** | [[paper]](https://arxiv.org/abs/2312.13816) | [code]
 
 	- [2023/12/21] **AppAgent: Multimodal Agents as Smartphone Users** | [[paper]](https://arxiv.org/abs/2312.13771) | [[code]](https://github.com/mnotgod96/AppAgent)
